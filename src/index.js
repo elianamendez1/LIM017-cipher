@@ -66,6 +66,17 @@ runCipher.addEventListener("click", () => {
     msg.innerText = resultCipher;
 });
 
+//Para limpiar pantalla Cifrar
+const cleanCipher = document.getElementById("clean");
+cleanCipher.addEventListener("click", () => {
+    let number = document.getElementById("key");
+    let text = document.getElementById("cipherText");
+    let msg = document.getElementById("encodedText");
+    number.value = ""
+    text.value = ""
+    msg.innerText = ""
+})
+
 //Función para que corra descifrar
 const runDescipher = document.getElementById("enter-descipher");
 runDescipher.addEventListener("click", () => {
@@ -77,3 +88,15 @@ runDescipher.addEventListener("click", () => {
     let msg2 = document.getElementById("decodedText");
     msg2.innerText = resultDescipher;
 });
+
+//Para limpiar pantalla Descifrar
+const cleanDescipher = document.getElementById("cleaner");
+cleanDescipher.addEventListener("click", () => {
+    let number = document.getElementById("keyNumber");
+    let text = document.getElementById("textDescipher");
+    let msg = document.getElementById("decodedText");
+    number.value = ""
+    text.value = ""
+    msg.innerText = ""
+})
+
