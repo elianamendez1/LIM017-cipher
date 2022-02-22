@@ -1,3 +1,36 @@
+# Proceso y decisiones de diseño para Balance.
+## Fundamentos
+
+**_Balance_** se diseñó, tomando en cuenta las bases del **Peridismo de Investigación**:
+
+>"El periodismo de investigación es aquel que se realiza a través de la iniciativa y el trabajo del periodista sobre asuntos de importancia que algunas personas u organizaciones desean mantener en secreto".
+
+Éste proceso informativo tiene riesgos que en ocasiones se ha llevado la vida de informadores o fuentes en el proceso:
+
+>"Según las nuevas estadísticas, la UNESCO ha registrado 400 asesinatos de periodistas en todo el mundo en los últimos cinco años. La Organización también ha registrado una tasa de impunidad del 87% para los autores de los asesinatos de periodistas que tuvieron lugar entre 2006 y 2020".
+
+Es por ello que para éste cifrado César **_Balance_** busca crear un canal seguro para la transmisión de mensajes que ayuden al proceso investigativo del periodista y a una información de calidad para el planeta.
+
+## Diseño 
+
+Para el proceso de diseño se utilizó el programa Illustrator de Adobe, dónde se realizó el prototipo de  aplicación con las características y el tamaño de un móvil. El cual, fue modificado para que en 4 pestañas hubiese una mejor organización de la información y funcionalidades:
+
+**_debe ir la o las fotografías con el diseño_**
+
+* Pestaña principal con logotipo, información, menú de navegación y botones que llevaran a las funciones de cifrado y descifrado.
+* Pestaña de cifrado que contiene en concreto la función de cifrar el mensaje escogiendo la llave o desplazamiento a utilizar.
+* Pestaña de descifrado, contiene la función descifrar el mensaje escogiendo la llave o desplazamiento a utilizar.
+* Por último, la pestaña de Tu Hecho en la que la persona tiene la posibilidad de enviar el mensaje cifrado bajo un seudónimo o incluso solicitar que algún hecho sea verificado para su investigación.
+
+Todas tienen atajos de movimiento a través de las diferentes pestañas a la principal o viceversa, para ofrecer al usuario la posibilidad de un acceso completo y sencillo a todas ellas.
+
+
+
+
+
+
+
+
 # Cifrado César
 
 ## Índice
