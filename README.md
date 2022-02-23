@@ -1,35 +1,30 @@
 # Proceso y decisiones de diseño para Balance.
-## Fundamentos
+## Diseño
 
-**_Balance_** se diseñó, tomando en cuenta las bases del **Peridismo de Investigación**:
+Para la realización del boceto y prototipo de alta fidelidad se utilizó el programa _Illustrator_ de _Adobe_, dónde se inició un diseño con el tamaño para un móvil. El cual, fue modificado, para que en 4 pestañas hubiese una mejor organización de la información y funcionalidades:
 
->"El periodismo de investigación es aquel que se realiza a través de la iniciativa y el trabajo del periodista sobre asuntos de importancia que algunas personas u organizaciones desean mantener en secreto".
+https://github.com/elianamendez1/LIM017-cipher/blob/main/src/dise%C3%B1o/imagenes/Balance%20bosquejo%20de%20dise%C3%B1o.jpg
 
-Éste proceso informativo tiene riesgos que en ocasiones se ha llevado la vida de informadores o fuentes en el proceso:
-
->"Según las nuevas estadísticas, la UNESCO ha registrado 400 asesinatos de periodistas en todo el mundo en los últimos cinco años. La Organización también ha registrado una tasa de impunidad del 87% para los autores de los asesinatos de periodistas que tuvieron lugar entre 2006 y 2020".
-
-Es por ello que para éste cifrado César **_Balance_** busca crear un canal seguro para la transmisión de mensajes que ayuden al proceso investigativo del periodista y a una información de calidad para el planeta.
-
-## Diseño 
-
-Para el proceso de diseño se utilizó el programa Illustrator de Adobe, dónde se realizó el prototipo de  aplicación con las características y el tamaño de un móvil. El cual, fue modificado para que en 4 pestañas hubiese una mejor organización de la información y funcionalidades:
-
-**_debe ir la o las fotografías con el diseño_**
+https://github.com/elianamendez1/LIM017-cipher/blob/main/src/dise%C3%B1o/imagenes/Balance%20dise%C3%B1o%20de%20App.jpg
 
 * Pestaña principal con logotipo, información, menú de navegación y botones que llevaran a las funciones de cifrado y descifrado.
-* Pestaña de cifrado que contiene en concreto la función de cifrar el mensaje escogiendo la llave o desplazamiento a utilizar.
-* Pestaña de descifrado, contiene la función descifrar el mensaje escogiendo la llave o desplazamiento a utilizar.
-* Por último, la pestaña de Tu Hecho en la que la persona tiene la posibilidad de enviar el mensaje cifrado bajo un seudónimo o incluso solicitar que algún hecho sea verificado para su investigación.
+* Pestaña de _cifrar_ que contiene en concreto la función de cifrar el mensaje, escogiendo la llave o desplazamiento a utilizar.
+* Pestaña de _descifrar_, la cual incluye la función: descifrar el mensaje, escogiendo la llave o desplazamiento a utilizar.
+* Por último, la pestaña de _Tu Hecho_ en la que la persona tiene la posibilidad de enviar información para investigar, bajo un seudónimo, y solicitar que el hecho sea verificado para su investigación.
 
 Todas tienen atajos de movimiento a través de las diferentes pestañas a la principal o viceversa, para ofrecer al usuario la posibilidad de un acceso completo y sencillo a todas ellas.
 
+## Fundamentos
 
+**_Balance_** está pensada para el intercambio de información entre periodistas investigativos y sus fuentes (emisores de datos), tomando en cuenta las bases del **Periodismo de Investigación**:
 
+>"El periodismo de investigación es aquel que se realiza a través de la iniciativa y el trabajo del periodista sobre asuntos de importancia que algunas personas u organizaciones desean mantener en secreto".
 
+Éste proceso informativo tiene riesgos que en ocasiones se ha llevado la vida de periodistas o fuentes en su desarrollo:
 
+>"Según las nuevas estadísticas, la UNESCO ha registrado 400 asesinatos de periodistas en todo el mundo en los últimos cinco años. La Organización también ha registrado una tasa de impunidad del 87% para los autores de los asesinatos de periodistas que tuvieron lugar entre 2006 y 2020".
 
-
+Es por ello que en éste cifrado César **_Balance_** busca crear un canal seguro para la transmisión de mensajes que ayuden al proceso investigativo del periodista y al anónimato de la fuente. Así se minimizan riesgos potenciales y existe una información de calidad para el planeta.
 
 # Cifrado César
 
