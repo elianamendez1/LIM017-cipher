@@ -3,7 +3,7 @@
 
 Para la realización del boceto y prototipo de alta fidelidad se utilizó el programa _Illustrator_ de _Adobe_, dónde se inició un diseño con el tamaño para un móvil. El cual, fue modificado, para que en 4 pestañas hubiese una mejor organización de la información y funcionalidades:
 
-https://github.com/elianamendez1/LIM017-cipher/blob/main/src/dise%C3%B1o/imagenes/Balance%20bosquejo%20de%20dise%C3%B1o.jpg
+![Desing](/src/diseño/imagenes/Balance bosquejo de diseño.jpg?raw=true)
 
 https://github.com/elianamendez1/LIM017-cipher/blob/main/src/dise%C3%B1o/imagenes/Balance%20dise%C3%B1o%20de%20App.jpg
 
