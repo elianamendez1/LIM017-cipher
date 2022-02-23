@@ -3,9 +3,9 @@
 
 Para la realización del boceto y prototipo de alta fidelidad se utilizó el programa _Illustrator_ de _Adobe_, dónde se inició un diseño con el tamaño para un móvil. El cual, fue modificado, para que en 4 pestañas hubiese una mejor organización de la información y funcionalidades:
 
-![Desing](/src/diseño/imagenes/Balance bosquejo de diseño.jpg?raw=true)
+![](https://github.com/elianamendez1/LIM017-cipher/blob/main/src/dise%C3%B1o/imagenes/Balance%20dise%C3%B1o%20de%20App.jpg)
 
-https://github.com/elianamendez1/LIM017-cipher/blob/main/src/dise%C3%B1o/imagenes/Balance%20dise%C3%B1o%20de%20App.jpg
+![](https://github.com/elianamendez1/LIM017-cipher/blob/e7cedc0183d2a275fce11adcc937958aec536e6c/src/dise%C3%B1o/imagenes/Balance%20dise%C3%B1o%20de%20App.jpg)
 
 * Pestaña principal con logotipo, información, menú de navegación y botones que llevaran a las funciones de cifrado y descifrado.
 * Pestaña de _cifrar_ que contiene en concreto la función de cifrar el mensaje, escogiendo la llave o desplazamiento a utilizar.
