@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BalanceApp</title>
+    <link rel="icon" href="diseño/imagenes/balance.ico">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <header>
+    <nav>
+      <ul>
+        <a href="#mainScreen-cipher" id="nav-link1">Cifrar</a>
+        <a href="#mainDescipher" id="nav-link2">Descifrar</a>
+        <a href="#help-section" id="nav-link3">Tu&nbsp;Hecho</a>
+      </ul>
+    </nav>
+  </header>
+  <body>
+      <div class="container-images">
+        <img src="diseño/imagenes/mapamundi2.png" title="Mapamundi" id="mapImage">
+        <a href="index.html">
+        <img src="diseño/imagenes/logo-front.png" title="Logo BalanceApp" id="logo">
+        </a>
+    </div>
+
+    <div id="background-white"></div>
+    
+    <div class="wrapper" id="wrap">
+    <section class="main-screen" id="main-screen">
+      <h1 id="name-main">Balance</h1>
+      <br>
+      <span>Una herramienta creada para asegurar el contenido de tu mensaje <br>
+        y poder crear noticia e informar sin comprometer el proceso.</span>
+      <br>
+      <button type="button" id="enterMainCipher">Cifrar</button>
+
+      <button type="button" id="enterMainDescipher">Descifrar</button>
+      <br>
+      <span id="textMainSelections">Selecciona la opción que requieres para transmitir o recibir <br>
+        el contenido de tu mensaje.</span>
+      <a id="help-main" href="#help-section">¿Necesitas ayuda?</a>
+      </section>
+
+    <section class="mainScreen-cipher" id="mainScreen-cipher">
+    <h1>Balance</h1>
+    <br>
+    <input type= "number" id="key" name="key" min="1" placeholder="Llave">
+    <input type="text" id="cipherText" name="cipherText" placeholder="Escribe el texto que deseas cifrar">
+    <br>
+    <button type="button" id="enterCipher">Cifrar</button>
+    <br>
+    <div id="descipherText">
+      <br>
+      <p class="textInformation" id="encodedText">Aquí verás tu texto cifrado</p>
+    </div>
+    <br>
+    <button type="button" id="clean">Limpiar</button>
+    <br>
+    <a href="index.html">
+    <button type="button" id="returnMain">Volver</button>
+    </a>
+
+    </section>
+
+    <section class="mainDescipher" id="mainDescipher">
+      <h1>Balance</h1>
+      <br>
+      <input type= "number" id="keyNumber" name="keyNumber" min="1" placeholder="Llave">
+      <input type="text" id="textDescipher" name="textDescipher" placeholder="Escribe el texto que deseas descifrar">
+      <br>
+      <button type="button" id="enter-descipher">Descifrar</button>
+      <br>
+
+      <div id="decoded-box">
+        <br>
+        <p class="decoded-text" id="decodedText">Aquí verás tu texto descifrado</p>
+      </div>
+      <br>
+      <button type="button" id="cleaner">Limpiar</button>
+      <br>
+      <a href="index.html">
+      <button type="button" id="return-main">Volver</button>
+      </a>
+
+      </section>
+
+
+      <section id="help-section">
+        <h1>Balance</h1>
+        <form class="formYouDone">
+          <h2 class="form-title">Contáctanos</h2>
+          <input type="text" class="formInput">
+          <label for="" class="formLabel">Pseudónimo</label>
+          <br>
+          <input type="email" class="formInput">
+          <label for="" class="formLabel">Correo Electrónico</label>
+          <br>
+          <input type="text" class="formInput">
+          <label for="" class="formLabel">Mensaje</label>
+          <br>
+          <input type="submit" id="signUp">
+        </form>
+        <br>
+
+        <p id="description-help">Escribe el <b>hecho</b> que crees que <b>debamos investigar</b>,<br>
+          de resultar relevante, un periodista especializado <br>se pondrá en contacto contigo.<br><br>
+        Recuerda <b>dejar los datos</b> que consideres necesarios<br>
+        para que puedas <b>transmitir la información adecuadamente.</b> </p>
+        
+        </section>
+      </div>
+
+    <div id="root">
+
+    </div>
+
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
