@@ -3,7 +3,7 @@
     if (typeof string !== 'string' || !offset) {
       throw TypeError('invoked with wrong argument types')
     }
-  
+
     let msg = "";
 
     for (let i = 0; i < string.length; i++) {
